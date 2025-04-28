@@ -1,10 +1,17 @@
-# Android Crypto Monitor 📱🚀
-Projeto de monitoramento de criptomoedas. Build rápido, direto e funcional.
+# 📱 Android Crypto Monitor
 
-📂 Estrutura do Código
+Projeto Android que monitora criptomoedas em tempo real usando uma API externa. Simples, direto e funcional. Ideal pra estudar integração com serviços REST, manipulação de dados e exibição dinâmica no Android.
 
-Arquivo | Função
-MainActivity.kt | Ponto de entrada. Gerencia a tela principal e atualizações de UI.
-CryptoService.kt | Conecta na API de dados de cripto (coin market) e puxa as informações.
-CryptoFactory.kt | Cria instâncias de objetos baseados nos dados recebidos da API.
-CryptoModel.kt | Representa as criptomoedas (nome, preço, variação). Puro dados.
+---
+
+## 🧠 Estrutura do Projeto (Arquivos Kotlin)
+
+| Arquivo | Papel no projeto |
+|--------|------------------|
+| `MainActivity.kt` | Atividade principal que exibe os dados de criptos na tela. Controla a UI. |
+| `CryptoService.kt` | Serviço que se comunica com a API externa e traz os dados das moedas. |
+| `CryptoFactory.kt` | Classe que transforma os dados crus da API em objetos usáveis no app. |
+| `CryptoModel.kt` | Modelo de dados que representa uma criptomoeda (nome, preço, etc). |
+
+---
+
