@@ -15,3 +15,4 @@ Projeto Android que monitora criptomoedas em tempo real usando uma API externa. 
 
 ---
 
+![evidencia](https://github.com/user-attachments/assets/8a9f6607-9129-4c5c-a5e8-c9535eef5252)
